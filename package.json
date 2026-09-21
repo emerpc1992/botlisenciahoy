@@ -1,0 +1,17 @@
+{
+  "name": "vixpro-bot-oauth",
+  "version": "1.1.0",
+  "description": "Servidor OAuth2 + PKCE para VIXPRO-BOT, nueva API publica de Deriv (sin client_secret)",
+  "type": "module",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
